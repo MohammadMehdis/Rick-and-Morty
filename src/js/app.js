@@ -54,7 +54,7 @@ function RenderCarchter(keyword = "") {
                   <img class="rounded-[1.6rem] h-[20rem]" src="${character.image}" alt="#" />
             <div class="w-[20.1rem] h-[12.8rem] flex flex-col justify-between ">
               <p>${character.name} ${character.status === "Alive" ? "🟢" : "🔴"}</p>
-              <div class="w-[16rem] h-[9.4rem] flex flex-col items-center justify-between text-[1.4rem">
+              <div class="w-[16.5rem] h-[9.4rem] flex flex-col items-center justify-between text-[1.4rem">
                 <span
                   class="w-[100%] h-[1.6rem] flex items-center gap-[0.5rem]"
                 >
